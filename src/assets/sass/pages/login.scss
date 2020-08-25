@@ -1,0 +1,17 @@
+.login-content {
+  width: 448px;
+  height: 408px;
+  padding: 40px 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid $color-black;
+
+  .logo-content {
+    height: 60px;
+    width: 235.34px;
+    background-color: black;
+    margin: 0 auto 40px auto;
+  }
+}

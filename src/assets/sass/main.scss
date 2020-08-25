@@ -1,0 +1,25 @@
+@import "./fonts";
+@import "./base.scss";
+@import "./grid.scss";
+@import "./variables.scss";
+
+@import "./pages/login";
+@import "./pages/home";
+@import "./pages/form";
+
+@import "./components/input";
+@import "./components/buttons";
+@import "./components/modal";
+@import "./components/naver-detail";
+@import "./components/alert";
+
+@import "./layout/header";
+
+.app {
+    min-height: 700px;
+    background-color: $color-gray;
+}
+
+body {
+    background-color: $color-gray;
+}

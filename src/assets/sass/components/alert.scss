@@ -1,0 +1,58 @@
+.alert-content {
+  width: 592px;
+  min-height: 160px;
+  padding: 32px;
+  background-color: $color-white;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  .close-content {
+    img {
+      float: right;
+      cursor: pointer;
+    }
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-family: MRegular;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 36px;
+    font-family: MRegular;
+  }
+
+  .alert-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    button {
+      height: 40px;
+      width: 176px;
+      font-size: 14px;
+      line-height: 24px;
+      border-color: transparent;
+      cursor: pointer;
+    }
+
+    .cancel {
+      margin-right: 20px;
+      background: $color-white;
+      border: 1px solid $color-black;
+    }
+
+    .delete {
+      color: $color-white;
+      background-color: $color-black;
+    }
+  }
+}

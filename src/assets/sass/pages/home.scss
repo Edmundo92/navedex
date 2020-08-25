@@ -1,0 +1,117 @@
+.main {
+    padding: 0 32px;
+
+    .navers-container {
+        .navers-inf {
+            display: flex;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 40px;
+                line-height: 48px;
+                font-weight: bold;
+                font-family: MSemiBold;
+            }
+
+            button {
+                height: 40px;
+                width: 176px;
+                color: $color-white;
+                background-color: $color-black;
+                border-color: transparent;
+                cursor: pointer;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+
+        .mt-4 {
+            margin-bottom: 4px;
+        }
+
+        .mt-8 {
+            margin-bottom: 8px;
+        }
+
+        .navers-list {
+            margin-top: 25px;
+            display: flex;
+
+            // justify-content: space-between;
+            flex-wrap: wrap;
+
+            .naver-item {
+                // width: 281px;
+                min-height: 281px;
+                margin-bottom: 40px;
+
+                .action-container {
+                    img {
+                        cursor: pointer;
+                    }
+
+                    .trash-icon {
+                        width: 14px;
+                        height: 18px;
+                        margin-right: 16px;
+                    }
+
+                    .edit-icon {
+                        width: 18.41px;
+                        height: 18.41px;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    filter: grayscale(29);
+                }
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    line-height: 18px;
+                    color: $color-black;
+                    font-family: MMedium;
+                }
+
+                span {
+                    display: block;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-family: MRegular;
+                    color: $color-black-light;
+                }
+            }
+        }
+    }
+}
+
+.action-container {
+    img {
+        cursor: pointer;
+    }
+
+    .trash-icon {
+        width: 14px;
+        height: 18px;
+        margin-right: 16px;
+    }
+
+    .edit-icon {
+        width: 18.41px;
+        height: 18.41px;
+    }
+}
+
+@media (max-width: 720px) {
+    .main {
+        .navers-container {
+            .navers-list {
+                .naver-item {
+                    width: 33%;
+                }
+            }
+        }
+    }
+}

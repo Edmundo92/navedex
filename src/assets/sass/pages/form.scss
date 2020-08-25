@@ -1,0 +1,64 @@
+.form-container {
+    .form {
+        width: 100%;
+        margin: 0 auto;
+
+        .title-content {
+            display: flex;
+            margin-bottom: 32px;
+
+            a {
+                display: flex;
+            }
+
+            img {
+                margin-right: 22px;
+            }
+
+            h4 {
+                font-size: 24px;
+                line-height: 36px;
+                font-family: MRegular;
+            }
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        button {
+            height: 40px;
+            width: 176px;
+            color: $color-white;
+            background-color: $color-black;
+            border-color: transparent;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 24px;
+            float: right;
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .form-container {
+        .form {
+            width: 600px;
+            background-color: red;
+
+            .input-group {
+                flex-direction: row;
+
+                .input-content {
+                    flex: 1;
+
+                    &:first-child {
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

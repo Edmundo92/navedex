@@ -1,0 +1,18 @@
+.header {
+  height: 85px;
+  display: flex;
+  padding: 0 22px;
+  margin-bottom: 65px;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    height: 37.5px;
+    width: 37px;
+  }
+
+  .logout {
+    font-family: MRegular;
+    font-weight: bolder;
+  }
+}

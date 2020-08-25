@@ -1,0 +1,26 @@
+.input-content {
+  margin-bottom: 32px;
+
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+
+  label {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: $color-black;
+    font-family: MRegular;
+    margin-bottom: 4px;
+  }
+
+  input {
+    height: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 6px;
+    border: 1px solid $color-black-light;
+  }
+}
